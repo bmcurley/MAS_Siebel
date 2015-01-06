@@ -1,0 +1,16 @@
+2) If I'm an examiner I should effectuate claims that I adjudicated. (Design Log - For Level 1 adjudicated claims, default the assignment for claims requiring effectuation to the examiner who adjudicated the appeal
+3) If I'm a Case Manager or Sys Admin, I'm able to reassign or assign claims to effectuate (Design Log: all other roles is read only)
+4) I'm able to create PDQ's to manage my workload
+
+
+1 - (Design Log - like a button upon clicking will take the next claim to assign based on the latest effectuation deadline date, this assignment would in essence be only relevant for L2 and L3 claims as L1 are defaulted to the examiner who worked the appeal)
+
+
+
+
+
+MAS3981
+From enhancement log: Users would like the 'All Assigned Appeals in my Org' to display assigned Pre-Screener 
+appeals as well. Currently it only displays appeals assigned to an Examiner and/or a Clinician. Currently a 
+more experienced user will review a new users work as part of an internal quality check. This will help allow 
+them to do this for Pre-Screeners.
