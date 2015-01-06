@@ -1,0 +1,41 @@
+To apply Quick Fixes to Siebel Tools
+
+Set ORACLE_HOME=c:\sia81\Tools_1<The base build installed location> in the command line. 
+Change the directory to <The base build installed location>(C:\sia81\Tools_1\OPatch). 
+Run the opatch lsinventory -detail command from C:\sia81\Tools_1\OPatch. 
+You will get Oracle Home, OUI/OPatch version, OUI location, Installed Top-level Products and location, Installed Top-level Products and Installed Products component names and versions.
+
+Run opatch and apply the <Location of untarred file from Step 5> command to apply the patch. 
+C:\sia81\Tools_1\OPatch>opatch apply C:\siebel_patch_image\8.1.1.9.qf0101001\Windows\Client\Siebel_Tools for Tools 
+
+At the end the installation process, the following message displays: 
+Verifying the update...
+
+Inventory check OK: Patch ID 8119230160101001 is registered in Oracle Home inventory with proper meta-data.
+
+Files check OK: Files from Patch ID 8119230160101001 are present in Oracle Home.
+
+OPatch succeeded.
+
+
+
+To apply Quick Fixes to Siebel Web Client
+
+Set ORACLE_HOME=c:\sia81\Client_1<The base build installed location> in the command line. 
+Change the directory to <The base build installed location>(C:\sia81\Client_1\OPatch). 
+Run the opatch lsinventory -detail command from C:\sia81\Client_1\OPatch. 
+You will get Oracle Home, OUI/OPatch version, OUI location, Installed Top-level Products and location, Installed Top-level Products and Installed Products component names and versions.
+
+Run opatch and apply the <Location of untarred file from Step 5> command to apply the patch. 
+C:\sia81\Client_1\OPatch>opatch apply C:\siebel_patch_image\8.1.1.9.qf0101001\Windows\Client\Siebel_Web_Client for Web_Client 
+
+At the end the installation process, the following message displays: 
+Verifying the update...
+
+Inventory check OK: Patch ID 8119230160101001 is registered in Oracle Home inventory with proper meta-data.
+
+Files check OK: Files from Patch ID 8119230160101001 are present in Oracle Home.
+
+OPatch succeeded.
+
+
